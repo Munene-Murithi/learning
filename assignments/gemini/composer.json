@@ -1,0 +1,16 @@
+{
+    "name": "sam/gemini",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Sam\\Gemini\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sam"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,17 @@
+{
+    "name": "main.sam/oop",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "MainSam\\Oop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sammy munene",
+            "email": "sammymunene22@gmail.com"
+        }
+    ],
+    "require": {}
+}

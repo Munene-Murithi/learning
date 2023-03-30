@@ -1,0 +1,176 @@
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+}
+:root {
+    --container-color: #1a1e21;
+    --second-color: #fd8f44;
+    --third-color: #3b5998;
+    --text-color: #172317;
+    --bg-color: #fff;
+}
+::selection{
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+section {
+    padding: 3rem 0 2rem;
+}
+
+
+/* 
+*this section designs the homepage 
+*Set the font family and background color
+ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+
+pre{
+    color: var(--third-color);
+}
+
+/* Style the navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    margin-top: 10px;
+    padding: 8px;
+   
+}
+span{
+    color: var(--second-color);
+}
+
+
+
+/* Style the dropdown menu */
+.dropdown-toggle {
+    color: #3b5998;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+}
+
+/* Style the "Create new post" button */
+.btn-primary {
+    background-color: var(--second-color);
+    border-color: #3b5998;
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1em;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #2d4373;
+    border-color: #2d4373;
+    cursor: crosshair;
+}
+
+/* Style the blog post headings and body text */
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3b5998;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Style the date below the blog post */
+hr {
+    border-top: 1px solid #1a1e21;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.posts_body{
+    margin: 10px;
+}
+.date{
+    font-size: 0.8em;
+    padding: 0%;
+}
+.user_name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.additional{
+    font-size: 0.4em;
+    position: relative;
+    color: var(--third-color);
+    font-style: italic;
+}
+.welcome{
+    width: 100%;
+    min-height: 440px;
+    background: var(--container-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.welcome-text{
+    color: var(--bg-color);
+    text-align: center;
+}
+.post-filter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5em;
+    margin-top: 2rem !important;
+    
+}
+.filter-item{
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.active-filter{
+    background: var(--second-color);
+    color: var(--bg-color);
+    padding: 4px 10px;
+    border-radius: 4px;
+
+}
+.welcome {
+    background-image: url('/img/welcome.jpg');
+    background-size: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
